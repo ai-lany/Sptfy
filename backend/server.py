@@ -6,7 +6,7 @@ import json
 path = os.getcwd()
 parent = os.path.dirname(path)
 
-app = Flask(__name__, template_folder=parent + '/frontend/public')
+app = Flask(__name__, template_folder=parent + '/frontend/build')
 
 CORS(app)
 
